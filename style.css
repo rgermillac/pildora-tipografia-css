@@ -1,0 +1,52 @@
+/* tipografias de googlefonts que probaremos en h2*/
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;500;700&display=swap');
+
+/* tipografia que descargamos y guardamos en fichero de nuestro proyecto, probamos en h5 y <p> */
+
+@font-face{
+    font-family: "pinkyboy";
+    src: url(font/pinkyboy/Pinkyboy.ttf);
+    font-style: normal;
+}
+
+
+body{
+    font-size: 20px;
+}
+
+h1{
+    font-family: Verdana;
+    color: blueviolet;
+
+}
+
+h2{
+    font-family: "laila", sans-serif;
+    font-weight: 300;
+    color: green;
+}
+
+h3{
+    font-family: "laila", sans-serif;
+    font-weight: 500;
+}
+
+h4{
+    font-family: "laila", sans-serif;
+    font-weight: 700;
+}
+
+h5{
+    font-family: "pinkyboy", normal;
+    font-size: 25px;
+    font-weight: 300;
+    color: red;
+
+}
+
+p{
+    font-family: "pinkyboy", normal;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 800;
+}
